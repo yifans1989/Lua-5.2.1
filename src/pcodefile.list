@@ -1,0 +1,104 @@
+#0. base def
+luaconf.h
+lua.h
+lualib.h
+llimits.h
+lua.hpp
+
+#1. vm core
+# c interface
+lapi.h
+lapi.c
+# std ctype imp
+lctype.h
+lctype.c
+# debug
+ldebug.h
+ldebug.c
+# function calling and stack managing
+ldo.h
+ldo.c
+# fcuntion prototype and closure
+lfunc.h
+lfunc.c
+# gc
+lgc.h
+lgc.c
+# mem managing
+lmem.h
+lmem.c
+# object imp
+lobject.h
+lobject.c
+# vm bytecode def
+lopcodes.h
+lopcodes.c
+# state imp
+lstate.h
+lstate.c
+# string imp
+lstring.h
+lstring.c
+# table imp
+ltable.h
+ltable.c
+# meta function imp
+ltm.h
+ltm.c
+# vm imp
+lvm.h
+lvm.c
+# stream io imp 
+lzio.h
+lzio.c
+
+#2. lexer and parser
+# code generator imp
+lcode.h
+lcode.c
+# prepare vm bytecode
+ldump.c
+# lexer
+llex.h
+llex.c
+# parser
+lparser.h
+lparser.c
+# restore vm bytecode
+lundump.h
+lundump.c
+
+#3. embed libs
+# aux lib
+lauxlib.h
+lauxlib.c
+# base lib
+lbaselib.c
+# bit lib
+lbitlib.c
+# corotine lib
+lcorolib.c
+# debug lib
+ldblib.c
+# init lib
+linit.c
+# IO lib
+liolib.c
+# math lib
+lmathlib.c
+# dl extend lib
+loadlib.c
+# OS lib
+loslib.c
+# string lib
+lstrlib.c
+# table lib
+ltablib.c
+
+#4. interpreter and compiler
+# interpreter imp 
+# lua.h
+lua.c
+# bytecode compiler imp
+luac.c
+
